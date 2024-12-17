@@ -1,1 +1,80 @@
 /*  your css code here. If applicable */
+body {
+  font-family: poppins;
+  background-color: #f5f5f5;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.header {
+  margin-bottom: 15px;
+  background-color: #011e29;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.newsSection {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.latest-news-section {
+  padding: 20px;
+  flex: 15%;
+  background: #fff;
+  border-radius: 15px;
+  /* text-align: center; */
+}
+.latest-news-section ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding: 0px 0 0 21px;
+  margin: 0;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.pictorial-news-section {
+  padding: 20px;
+  flex: 15%;
+  background: #fff;
+  border-radius: 15px;
+  /* text-align: center; */
+}
+.pictorial-news-section p img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.mainArticle {
+  flex: 60%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* @media (max-width:800px) {
+  .newsSection {
+    flex-direction: column;
+    background: #011e29;
+  }
+} */
+@media only screen and (max-width: 600px) {
+  .newsSection {
+    flex-direction: column;
+  }
+}
