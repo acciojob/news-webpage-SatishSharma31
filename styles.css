@@ -53,7 +53,7 @@ h2 {
   flex: 15%;
   background: #fff;
   border-radius: 15px;
-  /* text-align: center; */
+  text-align: center;
 }
 .pictorial-news-section p img {
   width: 100%;
